@@ -12,6 +12,7 @@ from streamlit_lottie import st_lottie_spinner
 from streamlit_option_menu import option_menu
 import streamlit.components.v1 as html
 from st_aggrid import AgGrid
+from streamlit_player import st_player
 import io
 
 
@@ -147,8 +148,8 @@ elif choose == "Project":
         st.write("Berikut merupakan penjelasan singkat mengenai apa saja yang terkait dalam *aviation cyber security*")
         
         # LOAD VIDEO
-        video1 = open("./img/aviation.mp4", "rb")
-        st.video(video1)
+        st_player("https://www.youtube.com/watch?v=cAAALHeAwfQ")
+        
         
         
         st.write("Credit to: https://www.youtube.com/watch?v=VXp9zaf6CT8")
