@@ -29,7 +29,7 @@ choose = option_menu(None, ["Home", "Project", "Data", "About Us", "Contact"],
                      menu_icon="app-indicator", default_index=0, orientation="horizontal",
                      styles={
     "container": {"padding": "7!important", "background-color": "#45a29e"},
-    "icon": {"color": "red", "font-size": "18px"}, 
+    "icon": {"color": "red", "font-size": "18px"},
     "nav-link": {"font-size": "14px", "text-align": "left", "margin":"0px", "--hover-color": "#3b4e64"},
     "nav-link-selected": {"background-color": "#1f2833"},}
 )
@@ -48,7 +48,7 @@ def load_lottieurl(url):
 
 # LOAD ASSETS
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
-logo = Image.open(r'C:\Streamlit\stenv\img\logo1.png')
+logo = Image.open('./img/logo1.png')
 
 if choose == "Home":
     col1, col2 = st.columns( [0.8, 0.2])
