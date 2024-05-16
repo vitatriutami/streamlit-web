@@ -6,4 +6,4 @@ streamlit==1.34.0
 streamlit_lottie==0.0.5
 streamlit_option_menu==0.3.12
 streamlit_player==0.1.5
-st_aggrid
+streamlit-aggrid
