@@ -303,7 +303,7 @@ elif choose == "About Us":
             st.write("<h4 style='text-align: center; color: white;'>Vita Tri Utami</h4>", unsafe_allow_html=True)
             st.write("I'm a freshgraduate majoring in Regional Development. I'm a fast-learner and ambitious. Currently, I'm seeking opportunities that will allow me to improve knowledge in this revolution industry era.")
             st.write("Motto: *Think outside the box. Better yet, burn the box and dance on the ashes*")
-            st.caption("Instagram: [@heyvita__tr](https://instagram.com/heyvita__tr/)")
+            st.caption("Instagram: [@vita__tr](https://instagram.com/heyvita__tr/)")
             st.caption("LinkedIn: [linkedin.com/in/vita-tri-utami](https://www.linkedin.com/in/vita-tri-utami/)")
 
 
